@@ -12,6 +12,7 @@ def load_config(f_name):
     content = file_to_str(f_name)
     return yaml.load(content)
 
+
 # 保存至csv
 def save_csv(dicts, f_name, columns, refresh):
     df = pd.DataFrame(dicts,columns = columns)

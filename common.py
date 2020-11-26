@@ -3,9 +3,12 @@ import ip138
 import json
 import yaml
 import file_tool
+import time
+
 #config
 
 columns = ['ip','country','province','city']
+wait_s = 0.5
 
 #end config
 
@@ -17,6 +20,7 @@ file_name = 'ip138.csv'
 def m_geo(ips, geoer):
     res = []
     for ip in ips:
+        time.sleep(wait_s)
         res.append(geoer(ip))
     return res
 
