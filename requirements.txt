@@ -1,11 +1,14 @@
 aliyun-python-sdk-core==2.13.29
 aliyun-python-sdk-geoip==1.0.3
+beautifulsoup4==4.9.3
+bs4==0.0.1
 certifi==2020.11.8
 cffi==1.14.4
 chardet==3.0.4
 cryptography==3.2.1
 idna==2.10
 jmespath==0.10.0
+lxml==4.6.1
 numpy==1.19.3
 pandas==1.1.4
 pycparser==2.20
@@ -14,4 +17,5 @@ pytz==2020.4
 PyYAML==5.3.1
 requests==2.25.0
 six==1.15.0
+soupsieve==2.0.1
 urllib3==1.26.2
